@@ -1,0 +1,52 @@
+﻿<div class="container">
+    <div class="panel panel-primary" ng-repeat="employee in employees">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                {{employee.name}}
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="col-xs-10">
+                <div class="row" vertical-align>
+                    <div class="col-xs-4">
+                        <img class="imageClass" ng-src="{{employee.photoPath}}" />
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="row">
+                            <div class="col-xs-6"><b>Name</b> </div>
+                            <div class="col-xs-6">: {{employee.name}}  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><b>Department</b> </div>
+                            <div class="col-xs-6">: {{employee.department}}  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><b>Gender</b> </div>
+                            <div class="col-xs-6">: {{employee.gender}}  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><b>City</b> </div>
+                            <div class="col-xs-6">: {{employee.city}}  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><b>State</b> </div>
+                            <div class="col-xs-6">: {{employee.state}}  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .imageClass {
+        width: 200px;
+        height: 200px;
+    }
+
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+</style>

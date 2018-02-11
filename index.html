@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html >
+<html  ng-app="myApp">
+<head>
+    <title>
+        Employee Details
+    </title>
+
+    <!--Using CDN for angularjs and angular js routing-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Adding javaScript file for angularJs coding-->
+    <script src="app.js"></script>
+    <script src="App/Directives/Footer/footerdirective.js"></script>
+    <script src="App/Directives/Header/headerdirective.js"></script>
+    <script src="App/Controllers/About/AboutController.js"></script>
+    <script src="App/Controllers/Contact/ContactController.js"></script>
+    <script src="App/Controllers/Employee/employeeController.js"></script>
+
+</head>
+<body>
+    <div >
+        <nav>
+          <header-directive></header-directive>
+        </nav>
+        <div class="container-fluid" id="content" role="main">
+            <div ng-view></div>
+        </div>
+        <footer class="navbar-fixed-bottom">
+          <footer-directive></footer-directive>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "Ramesh",
+    "city": "Hackensack",
+    "state": "NJ",
+    "photoPath": "data/Images/mark.png",
+    "department": "IT",
+    "gender": "Male"
+  },
+  {
+    "name": "Pradeep",
+    "city": "Hackensack",
+    "state": "NJ",
+    "photoPath": "data/Images/john.png",
+    "department": "HR",
+    "gender": "Male"
+  },
+  {
+    "name": "Prajwa",
+    "city": "Manhatten",
+    "state": "NY",
+    "photoPath": "data/Images/mary.png",
+    "department": "Sales",
+    "gender": "Female"
+  },
+  {
+    "name": "Prabhu",
+    "city": "Fairlawn",
+    "state": "NJ",
+    "photoPath": "data/Images/mark.png",
+    "department": "IT",
+    "gender": "Male"
+  },
+  {
+    "name": "Sashi",
+    "city": "Toranto",
+    "state": "CA",
+    "photoPath": "data/Images/mary.png",
+    "department": "Marketing",
+    "gender": "Female"
+  }
+]

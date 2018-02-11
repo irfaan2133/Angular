@@ -1,0 +1,6 @@
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\bin\AngularJsRouting.dll.config
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\bin\AngularJsRouting.dll
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\bin\AngularJsRouting.pdb
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\obj\Debug\EmployeeDetails.csprojResolveAssemblyReference.cache
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\obj\Debug\AngularJsRouting.dll
+C:\Users\v-taabhi\Downloads\AngularJsRouting\Employee Details\obj\Debug\AngularJsRouting.pdb
